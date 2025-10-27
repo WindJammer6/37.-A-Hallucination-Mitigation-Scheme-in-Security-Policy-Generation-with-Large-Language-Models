@@ -12,3 +12,7 @@ Compare GPT 4o-mini with GPT 5, deepseek or any other stronger models based on t
 <br>
 
 ## How to run the experiments?
+
+
+
+Note: GPT 5 mini takes a lot longer to generate intent to policy compared to GPT 4o mini. GPT 4o mini generates full 50 in an hour, but after an hour GPT 5 mini only generated like 18 only.
