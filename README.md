@@ -76,20 +76,30 @@ Source(s):
 <br>
 
 ## How to reproduce the experiments? <a name = "reproduce"></a>
-Minimal rexternal equirements in this project, the main one is the [OpenAI API Python library](https://platform.openai.com/docs/libraries).
+**Syntactic Correctness Comparison**  
+Minimal external equirements in this project, the main one is the [OpenAI API Python library](https://platform.openai.com/docs/libraries).
 
 1. Simply run the latest version of the prompt ensembling pipeline, '[main_v3.py](https://github.com/WindJammer6/37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling/blob/main/main_v3.py)' file, '[main_v4.py](https://github.com/WindJammer6/37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling/blob/main/main_v4.py)', which will generate a text file of the compiled XML policies for all 50 syntactic policy intents.
 2. Pass the generated text file to the '' file in the '' folder to generate
 3. 
 
+**Qualitative Output Comparison**  
+
+**Functional Testing on a Virtual Testbed**  
+
 <br>
 
 ## Results <a name = "results"></a>
+**Syntactic Correctness Comparison**  
 <img width="1911" height="890" alt="image" src="https://github.com/user-attachments/assets/f18fdaaf-7786-4dd0-9836-c098c7ea1e81" />
 
 - Baseline LLM - 0% syntactically correct generated XML policies
 - Prompt Ensembling with GPT-4o-mini - ~50% syntactically correct generated XML policies
 - Prompt Ensembling with GPT-4o-mini - ~80% syntactically correct generated XML policies
+
+**Qualitative Output Comparison**  
+
+**Functional Testing on a Virtual Testbed**  
 
 <br>
 
