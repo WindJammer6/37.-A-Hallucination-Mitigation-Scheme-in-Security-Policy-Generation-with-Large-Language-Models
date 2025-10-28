@@ -82,6 +82,9 @@ Minimal rexternal equirements in this project, the main one is the [OpenAI API P
 
 ## Results <a name = "results"></a>
 <img width="1911" height="890" alt="image" src="https://github.com/user-attachments/assets/f18fdaaf-7786-4dd0-9836-c098c7ea1e81" />
+- Baseline LLM - 0% syntactically correct generated XML policies
+- Prompt Ensembling with GPT-4o-mini - ~50% syntactically correct generated XML policies
+- Prompt Ensembling with GPT-4o-mini - ~80% syntactically correct generated XML policies
 
 <br>
 
