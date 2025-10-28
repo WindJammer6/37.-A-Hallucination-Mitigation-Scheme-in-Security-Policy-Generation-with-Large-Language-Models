@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 # Configuration: API key and model
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "YOUR-OPENAI-API-KEY-HERE"
 client = OpenAI(api_key=OPENAI_API_KEY)
 DEFAULT_MODEL = "gpt-4o-mini"
 
@@ -150,4 +150,5 @@ def main(policy_intent):
 if __name__ == "__main__":
     # policy_intent = "Block packets coming from Buenos Aires, Argentina but allow packets coming from Lima, Peru."
     policy_intent = "Mitigate Flood Attacks on a Company Web Server."
+
     main(policy_intent)
