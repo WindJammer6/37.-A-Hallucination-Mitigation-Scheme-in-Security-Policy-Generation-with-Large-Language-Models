@@ -8,7 +8,7 @@ NEO4J_URI = "bolt://127.0.0.1:7687"   # try "neo4j://localhost:7687" or "bolt://
 NEO4J_USER = "neo4j"
 NEO4J_PASSWORD = "jetwei1217"
 
-OPENAI_API_KEY = "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"              # your key
+OPENAI_API_KEY = "YOUR-OPENAI-API-KEY-HERE"              # your key
 
 # ---- clients ----
 driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
@@ -704,4 +704,5 @@ if __name__ == "__main__":
     print("\n--- Resolved ---")
     print(json.dumps(resolved, indent=2))
     print("\n--- XML ---")
+
     print(xml)
