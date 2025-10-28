@@ -53,7 +53,7 @@ LLM prompts, each responsible for a distinct sub-task (e.g., event and action ex
 <br>
 
 ## Past Iteration and Development Process <a name = "development"></a> 
-**Past Iteration**  
+**Past Iteration - Using Retrieval Augmented Generation (RAG) and Knowledge Graph (KG)**  
 The initial idea to tackle the hallucination in LLM problem was to use Retrieval Augmented Generation (RAG) and a Knowledge Graph (KG). However, we quickly realised that while RAG + KG can handle hallucinations regarding invalid field values (e.g. for the primary action, it can tell the LLM to use "drop" instead of "block"), it was not able to handle more complex hallucinations such as missing XML tags or incorrect structure.
 
 Work done on the past iteration can be found in the '[knowledge_graph_RAG](https://github.com/WindJammer6/37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling/tree/main/knowledge_graph_RAG)' folder.
