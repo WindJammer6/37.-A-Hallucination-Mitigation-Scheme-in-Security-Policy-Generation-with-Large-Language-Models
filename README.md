@@ -10,6 +10,8 @@ This project can seen as to succeed this paper: http://iotlab.skku.edu/publicati
 
 Much thanks to [Jaehoon (Paul) Jeong](https://scholar.google.co.uk/citations?user=_co9LWUAAAAJ&hl=en) for advising this project.
 
+This approach can be generalized beyond security policies to generate syntactically correct machine code for other domains where precise, structured output is required. It is particularly useful for building agentic LLM pipelines, where natural language instructions must be reliably translated into deterministic machine-readable formats (e.g., XML, JSON, or other fixed-schema configurations). Even if the initial generation fails to meet schema constraints, the LLM can automatically regenerate or self-correct until valid output is produced — ensuring consistent pipeline operation with minimal hallucinations.
+
 <p align="center"> 
   <img width="397" height="561" alt="prompt_ensemble_architecture (1)" src="https://github.com/user-attachments/assets/517ba34d-0563-4c44-8bc1-0b7cc00f858f" />
 </p>
@@ -79,9 +81,9 @@ Source(s):
 **Syntactic Correctness Comparison**  
 Minimal external equirements in this project, the main one is the [OpenAI API Python library](https://platform.openai.com/docs/libraries).
 
-1. Simply run the latest version of the prompt ensembling pipeline, '[main_v3.py](https://github.com/WindJammer6/37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling/blob/main/main_v3.py)' file, '[main_v4.py](https://github.com/WindJammer6/37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling/blob/main/main_v4.py)', which will generate a text file of the compiled XML policies for all 50 syntactic policy intents.
-2. Pass the generated text file to the '' file in the '' folder to generate
-3. 
+1. Simply run the latest version of the prompt ensembling pipeline, '[main_v3.py](https://github.com/WindJammer6/37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling/blob/main/main_v3.py)' file, '[main_v4.py](https://github.com/WindJammer6/37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling/blob/main/main_v4.py)', which will generate a text file of the compiled XML policies for all 50 syntactic policy intents dataset
+2. Pass the generated text file to the '[text_to_xml.py](https://github.com/WindJammer6/37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling/blob/main/helpers/text_to_xml.py)' file in the '[helpers](https://github.com/WindJammer6/37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling/tree/main/helpers)' folder to generate a folder with 50 XML files of the generated policies from the 50 syntactic policy intents dataset
+3. Pass all 50 XML files of the generated policies from the 50 syntactic policy intents dataset through yanglint to validate their syntactic correctness
 
 **Qualitative Output Comparison**  
 
@@ -100,11 +102,6 @@ Minimal external equirements in this project, the main one is the [OpenAI API Py
 **Qualitative Output Comparison**  
 
 **Functional Testing on a Virtual Testbed**  
-
-<br>
-
-## Future Work <a name = "futurework"></a>
-Say this approach can be used to generate syntactically correct machine code for another types of applications as well. Useful for using creating agentic pipelines with LLM, when language -> machine code must be accurately enforced using an LLM (with minimal hallucinations) as to ensure the pipeline works most of the time. Anyways, even if the the generated machine code fails in the pipeline, the LLM can try regenerating again until the correct syntax machine code is produced as a fallback. (examples of machine code be: fixed schemas like XML or JSON for other applications).
 
 <br>
 
