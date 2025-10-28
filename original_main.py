@@ -291,7 +291,7 @@
 from openai import OpenAI
 import csv
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "YOUR-OPENAI-API-KEY-HERE"
 client = OpenAI(api_key=OPENAI_API_KEY)
 model = "gpt-4o-mini"
 
@@ -607,3 +607,4 @@ if __name__ == "__main__":
 
 
 	# print(f"All policies generated and saved to {output_txt}")
+
