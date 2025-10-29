@@ -23,6 +23,12 @@ This approach can be generalized beyond security policies to generate syntactica
 
 <br>
 
+Source(s):
+- https://datatracker.ietf.org/doc/draft-ietf-i2nsf-consumer-facing-interface-dm/ (I2NSF Consumer-Facing Interface YANG Data Model | draft-ietf-i2nsf-consumer-facing-interface-dm-31)
+- https://github.com/CESNET/libyang (libyang)
+
+<br>
+
 ## Table of Contents
 1. [About the files and folders in this repository](#filesandfolders)
 2. [Past Iteration and Development Process](#development)
