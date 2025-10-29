@@ -97,7 +97,7 @@ Minimal external equirements in this project, the main one is the [OpenAI API Py
 
 - Baseline LLM - 0% syntactically correct generated XML policies
 - Prompt Ensembling with GPT-4o-mini - ~50% syntactically correct generated XML policies
-- Prompt Ensembling with GPT-4o-mini - ~80% syntactically correct generated XML policies
+- Prompt Ensembling with GPT-5-mini - ~80% syntactically correct generated XML policies
 
 **Qualitative Output Comparison**  
 
