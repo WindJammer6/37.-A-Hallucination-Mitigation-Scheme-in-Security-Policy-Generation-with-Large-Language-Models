@@ -11,7 +11,7 @@ This project can seen as to succeed this paper:
 
 Much thanks to [Jaehoon (Paul) Jeong](https://scholar.google.co.uk/citations?user=_co9LWUAAAAJ&hl=en) for advising this project.
 
-This approach can be generalized beyond security policies to generate syntactically correct machine code for other domains where precise, structured output is required. It is particularly useful for building agentic LLM pipelines, where natural language instructions must be reliably translated into deterministic machine-readable formats (e.g., XML, JSON, or other fixed-schema configurations). Even if the initial generation fails to meet schema constraints, the LLM can automatically regenerate or self-correct until valid output is produced — ensuring consistent pipeline operation with minimal hallucinations.
+This approach can be generalized beyond security policies to generate syntactically correct machine code for other domains where precise, structured output is required (especially in Networking, this can be used to generate accurrate policies/low-level device configurations and actions from high level natural language aka intents). It is particularly useful for building agentic LLM pipelines, where natural language instructions must be reliably translated into deterministic machine-readable formats (e.g., XML, JSON, or other fixed-schema configurations). Even if the initial generation fails to meet schema constraints, the LLM can automatically regenerate or self-correct until valid output is produced — ensuring consistent pipeline operation with minimal hallucinations.
 
 <p align="center"> 
   <img width="397" height="561" alt="prompt_ensemble_architecture (1)" src="https://github.com/user-attachments/assets/517ba34d-0563-4c44-8bc1-0b7cc00f858f" />
