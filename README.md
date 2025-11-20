@@ -1,5 +1,9 @@
 # 37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling
 
+Note to self:
+- In the overleaf paper for every component of the prompt ensembling pipeline, put a reason to why it is needed to be there and how it helps reduce hallucinations
+- So to justify the purpose and why each components NEEDS to be there (and that it is not redundant)
+
 Paper:
 
 **Abstract**  
