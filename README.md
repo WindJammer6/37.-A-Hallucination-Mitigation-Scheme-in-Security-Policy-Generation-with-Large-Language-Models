@@ -108,6 +108,7 @@ Minimal external equirements in this project, the main one is the [OpenAI API Py
 **Syntactic Correctness Comparison**  
 <img width="1911" height="890" alt="image" src="https://github.com/user-attachments/assets/f18fdaaf-7786-4dd0-9836-c098c7ea1e81" />
 
+Results from taking the average of 3 experimental runs for each of them:
 - Baseline LLM - 0% syntactically correct generated XML policies
 - Prompt Ensembling with GPT-4o-mini - ~50% syntactically correct generated XML policies
 - Prompt Ensembling with GPT-5-mini - ~80% syntactically correct generated XML policies
