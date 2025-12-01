@@ -1,6 +1,6 @@
 # 37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling
 
-Note to self:
+Notes to self:
 - In the overleaf paper for every component of the prompt ensembling pipeline, put a reason to why it is needed to be there and how it helps reduce hallucinations
 - So to justify the purpose and why each components NEEDS to be there (and that it is not redundant)
 - pipeline can be improved by throwing the generated policy inot the validator. If it pass, then good. If it fails, get the failed output log, and parse the wrong generated policy and the failed output log, and the intent again into the pipeline to get a correct output. This should generate even higher accuracy in generated policies. (its just I cant quite figure out the code cuz the testing was done in a linux machine but the policy generation was done in a windows hmmm....)
@@ -9,6 +9,7 @@ Note to self:
 - For the news scanning, can use the sliding window technique as recommended by the TrafficLLM paper Prof Marie recommended to reduce number of LLM calls of finding large events that may cause a network traffic spike
 - Maybe can ask chatgpt generate the algorithm for the prompt ensembling pipeline to put in the paper? (Like Algorithm 1 or sth) Similar to the TrafficLLM paper that Dr Marie sent
 - Maybe if I'm not gonna do about it (like the one the RIT TA recommended on the classifier/filter for the intent), can just add this as future work, where you add some sort of filter/classifier to sort out malicious/irrelevant/nothing-to-do-with-policy-generation intents before sending the intent to the pipeline
+- For knowledge graph embedding in the project LLM say can't do it due to the lack of a sufficiently large dataset of intent to policy to train that KG embedding model with to produce sufficiently accurate YANG data model XML policies outputs from intents using a KG embedding model
 
 Paper:
 
