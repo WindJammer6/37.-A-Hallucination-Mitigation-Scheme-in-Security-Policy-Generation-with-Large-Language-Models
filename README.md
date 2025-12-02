@@ -9,7 +9,7 @@ Notes to self:
 - Maybe can ask chatgpt generate the algorithm for the prompt ensembling pipeline to put in the paper? (Like Algorithm 1 or sth) Similar to the TrafficLLM paper that Dr Marie sent
 - Maybe if I'm not gonna do about it (like the one the RIT TA recommended on the classifier/filter for the intent), can just add this as future work, where you add some sort of filter/classifier to sort out malicious/irrelevant/nothing-to-do-with-policy-generation intents before sending the intent to the pipeline
 - For knowledge graph embedding in the project LLM say can't do it due to the lack of a sufficiently large dataset of intent to policy to train that KG embedding model with to produce sufficiently accurate YANG data model XML policies outputs from intents using a KG embedding model
-- Functional testing with OpenDaylight or Mininet seems like a very hard problem... and is it even required at all? If it dosent work out just put this as future directions for further testing (say in the future more rigorous testing and study the behaviour of the generated XML policies can be done testing these xml policies in an actual networks or simulated networks like OpenDaylight and mininet)
+- Functional testing with OpenDaylight or Mininet seems like a very hard problem... and is it even required at all? If it dosent work out just put this as future directions for further testing (say in the future more rigorous testing and study the behaviour of the generated XML policies can be done testing these xml policies in an actual networks or simulated networks like OpenDaylight and mininet i.e. convert these high level xml polciies to low level xmlnpolciies via restconf and a translator begore throwing them into mininet)
 
 Paper:
 
