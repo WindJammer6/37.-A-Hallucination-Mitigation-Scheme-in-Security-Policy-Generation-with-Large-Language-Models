@@ -121,6 +121,8 @@ Results from taking the average of 3 experimental runs for each of them:
 - Prompt Ensembling with GPT-4o-mini - ~50% syntactically correct generated XML policies
 - Prompt Ensembling with GPT-5-mini - ~80% syntactically correct generated XML policies
 
+ The syntactic correctness experiment file only works in a Linux virtual environment.
+
 **Qualitative Output Comparison**  
 
 **Functional Testing on a Virtual Testbed**  
