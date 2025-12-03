@@ -10,6 +10,11 @@ Notes to self:
 - Maybe if I'm not gonna do about it (like the one the RIT TA recommended on the classifier/filter for the intent), can just add this as future work, where you add some sort of filter/classifier to sort out malicious/irrelevant/nothing-to-do-with-policy-generation intents before sending the intent to the pipeline
 - For knowledge graph embedding in the project LLM say can't do it due to the lack of a sufficiently large dataset of intent to policy to train that KG embedding model with to produce sufficiently accurate YANG data model XML policies outputs from intents using a KG embedding model
 - Functional testing with OpenDaylight or Mininet seems like a very hard problem... and is it even required at all? If it dosent work out just put this as future directions for further testing (say in the future more rigorous testing and study the behaviour of the generated XML policies can be done testing these xml policies in an actual networks or simulated networks like OpenDaylight and mininet i.e. convert these high level xml polciies to low level xmlnpolciies via restconf and a translator begore throwing them into mininet)
+- Draw the thought process picture also on the output of the pipeline for the report like traffic LLM
+- Include requirements.txt in the project GitHub folder as well
+- Fix the way I call I2NSF CFI YANG schema in the paper
+- Fix the way I call high level xml policies (Im generating high level xml policies! Not the low level xml policies... that handled by the translator (with the RESTCONF all and OpenDaylight) and the other paper by prof paul) Mention this as well
+- Do comparison between gpt 4o mini and gpt 5 mini for the intent classifier
 
 Paper:
 
