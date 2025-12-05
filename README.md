@@ -18,6 +18,7 @@ Notes to self:
 - For overleaf change the policy validator description and maybe name cuz its not exactly a validator
 - Write about the drawbacks of having irrelevant intents and that not being covered in the previous paper (so thats a limitation). In methodology, the first pipeline tackles the first limiation and the second filtering tackles the second limitation. Then the experiments do both as well
 - change image drawing from policy validator to policy refiner
+- type some feedback on the LLM Classifier results in the evaluation section (its accurate so maybe this shows its viable?)
 
 Paper:
 
