@@ -15,6 +15,8 @@ Notes to self:
 - Fix the way I call I2NSF CFI YANG schema in the paper
 - Fix the way I call high level xml policies (Im generating high level xml policies! Not the low level xml policies... that handled by the translator (with the RESTCONF all and OpenDaylight) and the other paper by prof paul) Mention this as well
 - Do comparison between gpt 4o mini and gpt 5 mini for the intent classifier
+- For overleaf change the policy validator description and maybe name cuz its not exactly a validator
+- Write about the drawbacks of having irrelevant intents and that not being covered in the previous paper (so thats a limitation). In methodology, the first pipeline tackles the first limiation and the second filtering tackles the second limitation. Then the experiments do both as well
 
 Paper:
 
