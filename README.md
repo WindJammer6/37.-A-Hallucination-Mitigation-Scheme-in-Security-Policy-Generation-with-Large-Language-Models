@@ -17,6 +17,7 @@ Notes to self:
 - Do comparison between gpt 4o mini and gpt 5 mini for the intent classifier
 - For overleaf change the policy validator description and maybe name cuz its not exactly a validator
 - Write about the drawbacks of having irrelevant intents and that not being covered in the previous paper (so thats a limitation). In methodology, the first pipeline tackles the first limiation and the second filtering tackles the second limitation. Then the experiments do both as well
+- change image drawing from policy validator to policy refiner
 
 Paper:
 
