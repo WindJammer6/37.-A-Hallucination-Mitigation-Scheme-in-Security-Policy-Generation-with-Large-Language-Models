@@ -19,7 +19,8 @@ Notes to self:
 - Write about the drawbacks of having irrelevant intents and that not being covered in the previous paper (so thats a limitation). In methodology, the first pipeline tackles the first limiation and the second filtering tackles the second limitation. Then the experiments do both as well
 - change image drawing from policy validator to policy refiner
 - type some feedback on the LLM Classifier results in the evaluation section (its accurate so maybe this shows its viable?)
-- use the main 3 intent examples from the i2nsf draft in the paper
+- try to use the main 3 intent examples from the i2nsf draft in the paper, maybe the qualitative analysis ine just use one of these 3?
+- see if can setup validator to check the intents generated from the invalid policies? the meeting room needs to be validated correctly, while the payroll one needs to be validated wrongly 
 
 Paper:
 
