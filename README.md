@@ -113,7 +113,9 @@ Minimal external equirements in this project, the main one is the [OpenAI API Py
 
 ## Results <a name = "results"></a>
 **Syntactic Correctness Comparison**  
-<img width="1911" height="890" alt="image" src="https://github.com/user-attachments/assets/f18fdaaf-7786-4dd0-9836-c098c7ea1e81" />
+<p align="center"> 
+  <img width="1911" height="890" alt="image" src="https://github.com/user-attachments/assets/f18fdaaf-7786-4dd0-9836-c098c7ea1e81" />
+</p>
 
 Results from taking the average of 3 experimental runs for each of them:
 - Baseline LLM - 0% syntactically correct generated XML policies
@@ -123,7 +125,9 @@ Results from taking the average of 3 experimental runs for each of them:
  The syntactic correctness experiment file only works in a Linux virtual environment.
 
 **Intent Classification**  
-<img width="600" height="400" alt="results" src="https://github.com/user-attachments/assets/d70597ec-c287-4639-be24-0c7b79809a7c" />
+<p align="center"> 
+  <img width="600" height="400" alt="results" src="https://github.com/user-attachments/assets/d70597ec-c287-4639-be24-0c7b79809a7c" />
+</p>
 
 Results:
 - 
