@@ -128,7 +128,3 @@ Random additional notes: Past ideas tried but didn't get to work to reduce LLM h
 - [Acurai](https://arxiv.org/html/2412.05223v1)
 - [Chain of Thought (CoT)](https://arxiv.org/abs/2201.11903)
 - [ReAct](https://arxiv.org/abs/2210.03629)
-
-<br>
-
-Limitations note: GPT 5 mini takes a lot longer to generate intent to policy compared to GPT 4o mini. GPT 4o mini generates full 50 in an hour, but after an hour GPT 5 mini only generated like 18 only.
