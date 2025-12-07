@@ -106,9 +106,8 @@ Minimal external equirements in this project, the main one is the [OpenAI API Py
 2. Pass the generated text file to the '[text_to_xml.py](https://github.com/WindJammer6/37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling/blob/main/helpers/text_to_xml.py)' file in the '[helpers](https://github.com/WindJammer6/37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling/tree/main/helpers)' folder to generate a folder with 50 XML files of the generated policies from the 50 syntactic policy intents dataset
 3. Pass all 50 XML files of the generated policies from the 50 syntactic policy intents dataset through [yanglint](https://github.com/CESNET/libyang), in the '[validate-policies.py](https://github.com/WindJammer6/37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling/blob/main/experiments/validate_policies.py)' file in the '[experiments](https://github.com/WindJammer6/37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling/tree/main/experiments)' folder to generate a log that shows the results of the syntactic validation
 
-**Qualitative Output Comparison**  
-
-**Functional Testing on a Virtual Testbed**  
+**Intent Classification**  
+1. Add in your OpenAI API key, then simply run the latest version of the prompt ensembling pipeline, '[main_v4.py](https://github.com/WindJammer6/37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling/blob/main/main_v4.py)', which will generate a text file of the compiled XML policies for all 50 syntactic policy intents dataset
 
 <br>
 
@@ -123,9 +122,7 @@ Results from taking the average of 3 experimental runs for each of them:
 
  The syntactic correctness experiment file only works in a Linux virtual environment.
 
-**Qualitative Output Comparison**  
-
-**Functional Testing on a Virtual Testbed**  
+**Intent Classification**  
 
 <br>
 
