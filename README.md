@@ -123,6 +123,10 @@ Results from taking the average of 3 experimental runs for each of them:
  The syntactic correctness experiment file only works in a Linux virtual environment.
 
 **Intent Classification**  
+<img width="600" height="400" alt="results" src="https://github.com/user-attachments/assets/d70597ec-c287-4639-be24-0c7b79809a7c" />
+
+Results:
+- 
 
 <br>
 
