@@ -107,7 +107,7 @@ Minimal external equirements in this project, the main one is the [OpenAI API Py
 3. Pass all 50 XML files of the generated policies from the 50 syntactic policy intents dataset through [yanglint](https://github.com/CESNET/libyang), in the '[validate-policies.py](https://github.com/WindJammer6/37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling/blob/main/experiments/validate_policies.py)' file in the '[experiments](https://github.com/WindJammer6/37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling/tree/main/experiments)' folder to generate a log that shows the results of the syntactic validation
 
 **Intent Classification**  
-1. Add in your OpenAI API key, then simply run the '[classfiy_valid_and_invalid_intents.py](https://github.com/WindJammer6/37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling/blob/main/experiments_intent_classification/classfiy_valid_and_invalid_intents.py)' file in the '[experiments_intent_classification](\https://github.com/WindJammer6/37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling/tree/main/experiments_intent_classification)' folder, which will generate the results of the number of correctly classified intents
+1. Add in your OpenAI API key, then simply run the '[classfiy_valid_and_invalid_intents.py](https://github.com/WindJammer6/37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling/blob/main/experiments_intent_classification/classfiy_valid_and_invalid_intents.py)' file in the '[experiments_intent_classification](https://github.com/WindJammer6/37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling/tree/main/experiments_intent_classification)' folder, which will generate the results of the number of correctly classified intents
 
 <br>
 
@@ -130,7 +130,8 @@ Results from taking the average of 3 experimental runs for each of them:
 </p>
 
 Results:
-- 
+- GPT-4o-mini - 91% correctly classified intents
+- GPT-5-mini - 97% correctly classified intents
 
 <br>
 
