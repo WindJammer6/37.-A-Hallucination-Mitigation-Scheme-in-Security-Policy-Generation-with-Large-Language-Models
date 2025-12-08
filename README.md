@@ -1,7 +1,6 @@
 # 37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling
 
 Notes to self:
-- pipeline can be improved by throwing the generated policy inot the validator. If it pass, then good. If it fails, get the failed output log, and parse the wrong generated policy and the failed output log, and the intent again into the pipeline to get a correct output. This should generate even higher accuracy in generated policies. (its just I cant quite figure out the code cuz the testing was done in a linux machine but the policy generation was done in a windows hmmm....)
 - Draw the thought process picture also on the output of the pipeline for the report like traffic LLM
 - Include requirements.txt in the project GitHub folder as well
 - Fix the way I call I2NSF CFI YANG schema in the paper
