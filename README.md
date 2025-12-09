@@ -20,6 +20,8 @@ Just do a test on the other syntactically plausible one intent 2 bah... to have 
 
 - use red colour to code those areas that are wrong for invalid policies
 
+- maybe add the algorithm like the TrafficLLM in the paper?
+
 Paper:
 
 **Abstract**  
