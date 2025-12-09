@@ -18,6 +18,8 @@ Intent 2 also got the start date time problem, so it may or may not be right (al
 
 Just do a test on the other syntactically plausible one intent 2 bah... to have a piece of mind. So need go through setting up yanglint on wsl no choice (or see if ridwan willing to help anot)
 
+- use red colour to code those areas that are wrong for invalid policies
+
 Paper:
 
 **Abstract**  
