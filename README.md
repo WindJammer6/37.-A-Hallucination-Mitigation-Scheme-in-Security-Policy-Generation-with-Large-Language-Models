@@ -1,27 +1,5 @@
 # 37.-Mitigating-Hallucination-in-Security-Policy-Generation-with-Prompt-Ensembling
 
-Notes to self:
-- Draw the thought process picture also on the output of the pipeline for the report like traffic LLM
-- Include requirements.txt in the project GitHub folder as well
-- Fix the way I call I2NSF CFI YANG schema in the paper
-- Fix the way I call high level xml policies (Im generating high level xml policies! Not the low level xml policies... that handled by the translator (with the RESTCONF all and OpenDaylight) and the other paper by prof paul) Mention this as well
-- For qualitative evaluation, got more differences thats wrong including:
-- The start date time vs start time
-- the action vs actions
-- frequency daily vs weekly
-
-In the table add the validation if it's correct or not by yanglint
-
-For the irrelevant intents intent 1 I think got misprint error. Try again!
-
-Intent 2 also got the start date time problem, so it may or may not be right (also rewrite syntacrically correct and not plaisible XML policy)
-
-Just do a test on the other syntactically plausible one intent 2 bah... to have a piece of mind. So need go through setting up yanglint on wsl no choice (or see if ridwan willing to help anot)
-
-- use red colour to code those areas that are wrong for invalid policies
-
-- maybe add the algorithm like the TrafficLLM in the paper?
-
 Paper:
 
 **Abstract**  
