@@ -1,6 +1,6 @@
 # 37. A Hallucination Mitigation Scheme in Security Policy Generation with Large Language Models
 
-Paper:
+Paper: http://iotlab.skku.edu/publications/domestic-conference/KICS-2026-Winter-LLM-AntiHallucination.pdf
 
 Overleafs (only accessible by the authors): 
 - https://www.overleaf.com/project/692e9074ef4cf5fed6bb467a (2 and 3 page version)
