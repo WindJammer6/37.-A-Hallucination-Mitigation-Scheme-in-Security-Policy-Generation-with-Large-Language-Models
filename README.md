@@ -12,7 +12,7 @@ Large Language Models (LLMs) have shown promise in translating high-level securi
 This approach can be generalized beyond security policies to generate syntactically correct machine code for other domains where precise, structured output is required (especially in the LLM applications in Networking, this can be used to generate accurrate policies/low-level device configurations and actions from high level natural language aka intents). It is particularly useful for building agentic LLM pipelines, where natural language instructions must be reliably translated into deterministic machine-readable formats (e.g., XML, JSON, or other fixed-schema configurations). Even if the initial generation fails to meet schema constraints, the LLM can automatically regenerate or self-correct until valid output is produced — ensuring consistent pipeline operation with minimal hallucinations.
 
 This project can seen as to succeed this paper: 
-- http://iotlab.skku.edu/publications/domestic-conference/KICS-2025-Winter-LLM-Based-Security-Policy-Generation.pdf (Security Policy Generation for Cloud-Based Security Services using Large Language Model), with [source code](https://github.com/jaehoonpauljeong/Data-Modeling-Group-2-Project).
+- [Security Policy Generation for Cloud-Based Security Services using Large Language Model](http://iotlab.skku.edu/publications/domestic-conference/KICS-2025-Winter-LLM-Based-Security-Policy-Generation.pdf), with [source code](https://github.com/jaehoonpauljeong/Data-Modeling-Group-2-Project).
 
 Much thanks to [Jaehoon (Paul) Jeong](https://scholar.google.co.uk/citations?user=_co9LWUAAAAJ&hl=en) for advising this project.
 
